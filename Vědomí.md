@@ -108,6 +108,114 @@ Locked-out syndrom je stav, kdy pacient není vědomý, ale základní funkce, j
 - **Vegetativní stav**: Pacient může mít cyklus spánku a bdění a vykazovat reflexní reakce, ale bez vědomí.
 
 ---
+## Diagnostika přechodné ztráty vědomí (TLOC)
+
+Přechodná ztráta vědomí (TLOC – Transitory Loss of Consciousness) je stav charakterizovaný dočasnou ztrátou vědomí, který trvá od několika sekund po minuty. Při diagnostice se zaměřujeme na dva klíčové aspekty:
+- **Rychlost nástupu bezvědomí**
+- **Rychlost návratu orientace**
+
+```mermaid
+flowchart TD
+    A[TLOC] --> B{Rychlost nástupu}
+    
+    B --> C[Postupná ztráta vědomí]
+    B --> D[Okamžitá ztráta vědomí]
+
+    C --> E[Metabolické příčiny]
+    C --> F[Toxické příčiny]
+
+    D --> G[Synkopa]
+    D --> H[Epileptický záchvat]
+    D --> I[TIA]
+
+    G --> J[Kardiogenní synkopa]
+    G --> K[Nekardiogenní synkopa]
+
+```
+
+### Rozdělení podle rychlosti nástupu
+
+#### Postupný
+<details>
+<summary>Charakteristika</summary>
+Pacient postupně upadá do bezvědomí, často s pocity slabosti nebo nevolnosti.
+</details>
+
+- **Příčiny**:
+  - **Metabolické poruchy** (např. hypoglykémie): Pacient cítí hlad nebo slabost, pomalu ztrácí vědomí.
+  - **Toxické příčiny** (např. intoxikace alkoholem): Příznaky jako zmatenost nebo nevolnost přecházejí do bezvědomí.
+
+#### Okamžitý
+<details>
+<summary>Charakteristika</summary>
+Pacient náhle ztrácí vědomí bez předchozích příznaků.
+</details>
+
+- **Příčiny**:
+  - **Synkopa**: Rychlá hypoperfuze mozku způsobí, že pacient náhle upadne do bezvědomí, ale po pádu se rychle zotaví.
+  - **Epileptický záchvat (tonicko-klonický)**: Záchvat začíná náhle, pacient upadá do tonicko-klonických křečí.
+  - **Tranzitorní ischemická ataka (TIA)**: Krátkodobá ischemie mozku, zejména v oblasti mozkového kmene.
+
+### Rozdělení podle rychlosti návratu orientace
+
+#### Rychlý
+<details>
+<summary>Charakteristika</summary>
+Pacient se rychle orientuje po pádu, vědomí se obnovuje téměř okamžitě.
+</details>
+
+- **Typické příčiny**:
+  - **Synkopa**: Náhlá a reverzibilní ztráta vědomí způsobená hypoperfuzí mozku. Po pádu, když je hlava v úrovni srdce, se perfuze obnoví a pacient se rychle probouzí.
+
+#### Pomalý
+<details>
+<summary>Charakteristika</summary>
+Pacient je po návratu do vědomí zmatený, může být somnolentní a dezorientovaný.
+</details>
+
+- **Typické příčiny**:
+  - **Epileptický záchvat (tonicko-klonický)**: Po záchvatu následuje postiktální zmatenost a únava, která trvá několik minut až desítky minut.
+  - **TIA**: Zvláště v případě postižení mozkového kmene může trvat delší dobu, než se pacient plně zotaví.
+
+
+
+---
+
+## Synkopa
+
+Synkopa je přechodná ztráta vědomí způsobená **dočasnou hypoperfuzí mozku**. Po synkopě se pacient rychle zotavuje. Synkopy mohou mít různé příčiny a lze je rozdělit na dva základní typy:
+
+### Kardiogenní synkopa
+Způsobená srdečními problémy, zejména arytmiemi.
+- **Ventrikulární tachykardie**: Rychlé kontrakce komor, vedoucí ke snížení srdečního výdeje.
+- **Bradykardie**: Pomalý tep srdce (např. Sick sinus syndrom).
+- **Adam-Stokesův syndrom**: Náhlá ztráta vědomí způsobená arytmií, která může být život ohrožující.
+
+### Nekardiogenní synkopa
+Způsobena poruchami vegetativního nervového systému.
+- **Vazovagální synkopa**: Vyvolána stimulací bloudivého nervu (vagus), často u mladých lidí s nízkým krevním tlakem.
+- **Mikční synkopa**: Objevuje se při močení, často u mužů po požití alkoholu.
+- **Ortostatická synkopa**: Nastává při rychlém postavení z ležící polohy, např. po dlouhém ležení.
+- **Situační synkopa**: Spouštěčem mohou být specifické situace, např. Valsalvův manévr nebo hyperventilace.
+- **Syndrom karotického sinu**: Vyvolán tlakem na krk, např. holení, utaženou košilí nebo bezpečnostním pásem.
+  <details> <summary>Oblast karotického sinu na obrázku</summary> ![Oblast karotického sinu na obrázku](https://www.statpearls.com/pictures/getimagecontent/85) </details>
+
+---
+
+### Rozdíly mezi synkopou a epileptickým záchvatem
+
+Při odlišování synkopy a epileptického záchvatu je klíčové posoudit následující faktory:
+
+- **Postiktální zmatenost**: Po synkopě se pacient rychle orientuje, zatímco po tonicko-klonickém záchvatu může být dezorientovaný po dobu 10–20 minut.
+- **Poranění jazyka**: Synkopa obvykle nezpůsobuje pokousání jazyka, zatímco po epileptickém záchvatu může být jazyk poraněn.
+- **Bolest svalů**: Po epileptickém záchvatu bývá bolest svalů kvůli tonicko-klonickým křečím.
+- **Sfinktery**: Epileptický záchvat často doprovází uvolnění svěračů, zatímco u synkopy je to vzácné.
+
+---
+
+Tato struktura s rozbalitelnými spoilery činí poznámky přehlednější a snadněji čitelné, přičemž zachovává podrobný obsah pro diagnostiku TLOC.
+
+
 ## Glasgow Coma Scale
 
  **GCS**: Nejčastěji používaná škála pro objektivní hodnocení úrovně vědomí. GCS hodnotí tři kategorie:
